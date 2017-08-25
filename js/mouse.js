@@ -28,6 +28,14 @@ $(document).ready(function () {
     colorPool.length = $blocks.length;
   }, 500);
 
+  // let apple = function () {
+  //  console.log(this); //window
+  //}
+
+  // let apple = () => {
+  //  console.log(this); // the object which is called. 
+  // }
+
   //每0.033秒取樣一次
   setInterval(() => {
     xyPool.unshift({
@@ -59,5 +67,4 @@ $(document).ready(function () {
     });
     colorPool.push(randColor());
   });
-
 });
