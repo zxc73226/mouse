@@ -11,14 +11,13 @@ h6 {
   user-select: none;
   position: fixed;
   color: #fff;
-  top: 98%;
+  bottom: 0%;
 }
 
 .block {
   display: inline;
   user-select: none;
   color: #fff;
-  marger: 0px 4px;
   font-size: 1.4rem;
   &:before,
   &:after {
@@ -32,4 +31,12 @@ h6 {
   &:after {
     // transform: translate(-50%,-50%)rotate(-45deg);
   }
+}
+
+#nowTime {
+  color: #ccc;
+  position: fixed;
+  bottom: 0%;
+  left: 6%;
+  font-size: .75rem;
 }
